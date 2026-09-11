@@ -1,4 +1,4 @@
-# ============ ЗАПУСК ДЛЯ RENDER (WEBHOOK) ============
+import asyncio, base64, io, logging, os
 from aiohttp import web
 
 async def handle_webhook(request):
